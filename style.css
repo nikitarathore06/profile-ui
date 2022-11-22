@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+.container {
+    height: 100vh;
+    background-color: #833ab4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box {
+    height: 400px;
+    width: 450px;
+    background-color: #fcb045;
+    border-radius: 40px;
+}
+
+.profile-box img {
+    height: 100px;
+    border-radius: 45px;
+    margin-left: 142px;
+    margin-top: 50px;
+}
+
+h1 {
+    margin-left: 140px;
+    padding-top: 20px;
+}
+
+h3 {
+    margin-left: 135px;
+}
+
+span {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+button {
+    margin-left: 160px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 114px;
+}
+
+button:hover {
+    background-color: blue;
+}
